@@ -1,36 +1,84 @@
-  $gradient: linear-gradient(to right, #00467f, #a5cc82);
+  /* reset browser styles */
+* { box-sizing: border-box; }
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1.2;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+ol {
+  padding-left: 1.4em;
+  list-style: decimal;
+}
+ul {
+  padding-left: 1.4em;
+  list-style: square;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+/* end reset browser styles */
 
-  body{
-    width: 100%;
-    background-image: $gradient;
-  }
+
+$gradient: linear-gradient(to right, #00467f, #a5cc82);
+body{
+  width: 100%;
+  background-image: $gradient;
+}
 
 .wrapper {
-  width: 300px;
+  width: 210px;
   margin: 30px auto 10px;
   text-align: center;
 }
 
-  .wrapper h1 {
-    color: #3B0F25;
-    font-family: PlayfairDisplay-Regular, serif;
-    font-style: normal;
-    font-weight: 400;
-  }
+.wrapper h1 {
+  color: #3B0F25;
+  font-family: PlayfairDisplay-Regular, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.1em;
+}
 
-  .wrapper img {
-    padding-top: 10px;
-  }
+.wrapper h2 {
+  color: #3B0F25;
+  font-family: PlayfairDisplay-Regular, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8em;
+}
 
-  .wrapper p {
-    margin-top: 30px;
-  }
+.wrapper img {
+  padding-top: 20px;
+}
 
-  .wrapper button {
-    color: #3B0F25;
-    background-color: #cfe5c7;
-    padding: 10px;
-    border-radius: 2px;
-    font-weight: bold;
-  }
+.wrapper p {
+  margin-top: 30px;
+}
 
+.wrapper button {
+  color: #3B0F25;
+  background-color: #cfe5c7;
+  padding: 10px;
+  border-radius: 2px;
+  font-weight: bold;
+}
