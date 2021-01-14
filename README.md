@@ -5,9 +5,10 @@ A basic webpack boilerplate.
 ### Setup 
 ```bash
 1. Make sure Node and NPM are installed.
-1. git clone https://github.com/vpasq/webpack-boilerplate
-2. npm install
-3. npm run build
+2. git clone https://github.com/vpasq/webpack-boilerplate
+3. cd webpack-boilerplate
+4. npm install
+5. npm run build
 ```
 
 ### Version
