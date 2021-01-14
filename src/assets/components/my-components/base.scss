@@ -5,16 +5,11 @@
     background-image: $gradient;
   }
 
-  .wrapper {
-    position: relative;
-    max-width: 500%;
-    margin: 10px auto 10px;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    text-align: center;
-  }
+.wrapper {
+  width: 300px;
+  margin: 30px auto 10px;
+  text-align: center;
+}
 
   .wrapper h1 {
     color: #3B0F25;
