@@ -20,7 +20,7 @@ function component() {
   wrapper.appendChild(div);
 
   const h1 = document.createElement('h1');
-  h1.innerHTML = 'Great Job... Now, its Time for Coffee!';
+  h1.innerHTML = 'Great Job! Now, its Time for Coffee!';
   div.appendChild(h1);
 
   // Create an Image tag.
