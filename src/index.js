@@ -20,8 +20,12 @@ function component() {
   wrapper.appendChild(div);
 
   const h1 = document.createElement('h1');
-  h1.innerHTML = 'Great Job! Now, its Time for Coffee!';
+  h1.innerHTML = 'Great Job!';
   div.appendChild(h1);
+
+  const h2 = document.createElement('h2');
+  h2.innerHTML = 'Now, its Time for Coffee!';
+  div.appendChild(h2);
 
   // Create an Image tag.
   document.createElement('img');
@@ -45,5 +49,3 @@ function component() {
   return wrapper;
 }
 document.body.appendChild(component());
-
-
