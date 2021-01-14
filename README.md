@@ -9,6 +9,7 @@ A basic webpack boilerplate.
 3. cd webpack-boilerplate
 4. npm install
 5. npm run build
+6. npm start
 ```
 
 ### Version
