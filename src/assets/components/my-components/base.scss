@@ -38,8 +38,8 @@ q:before, q:after {
 }
 /* end reset browser styles */
 
+$gradient: linear-gradient(to right, #45c3c3, #3290a4);
 
-$gradient: linear-gradient(to right, #00467f, #a5cc82);
 body{
   width: 100%;
   background-image: $gradient;
