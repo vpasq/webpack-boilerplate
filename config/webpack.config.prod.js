@@ -57,7 +57,7 @@ module.exports = merge(common, {
     minimize: true,
     minimizer: [
       new TerserJSPlugin({
-        extractComments: false
+        extractComments: true
       }),
       new CssMinimizerPlugin()
     ],
